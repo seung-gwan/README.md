@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* 초기화 */
+body, h1, h2, h3, h4, h5, h6, ul, figure, p{ margin : 0; padding: 0;}
+ul li { list-style: none;}
+a{ text-decoration: none; }
+address { font-style: normal; }
+small { font-size: 1em; }
+.hidden { position: absolute; left: -9999px; }
+/* 웹폰트 - notosans kr */
+body{ font-family: 'Noto Sans KR', sans-serif;}
+/* 헤더 */
+#header {height: 600px; text-align: center;
+  background:url(../images/bg.jpg) no-repeat center center / cover;
+}
+#header hgroup { padding-top: 120px; }
+#header hgroup h1 { font-size: 100px; color: #f9ffd4;
+text-shadow: 0 0 7px #777777,0 -3px 1px, 1px -5px 3px #c6ffc4;
+}
+#header hgroup h2 { font-size: 40px; font-weight: normal;
+color: #f9ffd4; text-shadow: 0 0 7px #777777,0 -3px 1px, 1px -5px 3px #c6ffc4;
+}
+/* 네비 */
+#gnb { overflow: hidden; width: 1200px; margin: -30px auto 0 auto;  }
+#gnb ul {  }
+#gnb ul li { width: 25%; float: left; }
+#gnb ul li a { width: 300px; height: 60px; display: block;
+background-color: #4e7df6; color: #fff;text-align: center;
+line-height: 60px; : 30px;
+
+}
+#gnb ul li a:hover { background: #ff348a; color: #000;}
+
+/* 본문 */
+#content { width: 1200px; margin: 100px auto 50px; }
+#content article h3 { margin: 20px 0; }
+#content article figure { margin-bottom: 20px; }
+/* footer */
+#footer { padding: 50px 0; background: #9fb3f9; color: #fff;
+text-align: center;
+}
+#footer p { margin: 20px 0; }
+#footer address {  }
+#footer small {  }
